@@ -147,7 +147,7 @@ INSERT INTO store_orders([order_number],[customer_id],[product_id],[order_date],
 PRINT 'Row 2500 inserted';
 GO
 
-DROP TABLE IF EXISTS [watermarktable];
+DROP TABLE IF EXISTS [inventory];
 GO
 
 CREATE TABLE [inventory] (
